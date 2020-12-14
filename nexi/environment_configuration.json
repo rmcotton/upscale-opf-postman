@@ -1,5 +1,5 @@
 {
-  "id": "dedcec79-0ac2-407c-9ecd-f31b94d97ab3",
+  "id": "c2003b16-f903-4897-adec-0fa60bf3989b",
   "name": "gatewaytest",
   "values": [
     {
@@ -23,6 +23,12 @@
       "enabled": true
     },
     {
+      "key": "authentication_inbound_hmac_outbound_signature_calculation_secret_export_321",
+      "value": "Nexi iFrame MAC",
+      "enabled": true
+    }
+    ,
+    {
       "key": "authentication_inbound_hmac_signature_calculation_secret_export_373",
       "value": "Nexi Verify MAC",
       "enabled": true
@@ -31,12 +37,6 @@
     {
       "key": "authentication_inbound_hmac_signature_calculation_secret_export_451",
       "value": "Nexi Notification MAC",
-      "enabled": true
-    }
-    ,
-    {
-      "key": "authentication_inbound_hmac_outbound_signature_calculation_secret_export_321",
-      "value": "Nexi iFrame MAC",
       "enabled": true
     }
     ,

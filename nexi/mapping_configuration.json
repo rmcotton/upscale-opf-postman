@@ -1,6 +1,6 @@
 {
   "info": {
-    "_postman_id": "c2e8be65-83ac-4dee-aa89-5f188f889326",
+    "_postman_id": "42606ae6-7053-4d2b-9f6b-9f8325f0ba5f",
     "name": "Upscale_Payment_Config_Collection",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
@@ -297,7 +297,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "ed65f7f1-17e8-4da3-98ad-3d882c11f658",
+                "id": "50d4577f-d44c-418a-a58a-2f288ffcac17",
                 "exec": [
                   "tests[\"Status code is 201\"] = responseCode.code === 201;    \npm.test(\"Location is present\", function () {\n    pm.response.to.have.header(\"Location\");\n    var location=pm.response.headers.get(\"Location\");\n    pm.environment.set(\"authentication_inbound_hmac_signature_calculation_373\", location.substring(location.lastIndexOf(\"\/\")+1,location.length));\n});"
                   
@@ -348,7 +348,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "88d991a3-7cf9-4c1e-9229-dedb70037856",
+                "id": "302180ef-e89d-4151-a930-8ea8ecb3097c",
                 "exec": [
                   "tests[\"Status code is 201\"] = responseCode.code === 201;    \npm.test(\"Location is present\", function () {\n    pm.response.to.have.header(\"Location\");\n    var location=pm.response.headers.get(\"Location\");\n    pm.environment.set(\"authentication_inbound_hmac_outbound_signature_calculation_321\", location.substring(location.lastIndexOf(\"\/\")+1,location.length));\n});"
                   
@@ -399,7 +399,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "55269833-8605-42d1-b314-c7dfc77d051b",
+                "id": "d854acee-d8f5-4c62-8bf0-b3a6da728c0a",
                 "exec": [
                   "tests[\"Status code is 201\"] = responseCode.code === 201;    \npm.test(\"Location is present\", function () {\n    pm.response.to.have.header(\"Location\");\n    var location=pm.response.headers.get(\"Location\");\n    pm.environment.set(\"authentication_inbound_hmac_signature_calculation_451\", location.substring(location.lastIndexOf(\"\/\")+1,location.length));\n});"
                   
@@ -450,7 +450,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "63e17c19-55e8-4926-82fd-fab91dbb22a1",
+                "id": "8c862449-b7b1-425f-8732-3c22d32ea579",
                 "exec": [
                   "tests[\"Status code is 201\"] = responseCode.code === 201;    \npm.test(\"Location is present\", function () {\n    pm.response.to.have.header(\"Location\");\n    var location=pm.response.headers.get(\"Location\");\n    pm.environment.set(\"authentication_outbound_hmac_outbound_signature_calculation_370\", location.substring(location.lastIndexOf(\"\/\")+1,location.length));\n});"
                   
