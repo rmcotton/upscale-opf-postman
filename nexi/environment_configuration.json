@@ -1,0 +1,113 @@
+{
+  "id": "ea1cdda6-624d-4c28-a140-c07f7fff7588",
+  "name": "gatewaystage",
+  "values": [
+    {
+      "key": "token",
+      "value": "",
+      "enabled": true
+    },
+    {
+      "key": "rootUrl",
+      "value": "https:\/\/gatewaystage-approuter-caas2-sap-stage.cfapps.us10.hana.ondemand.com",
+      "enabled": true
+    },
+    {
+      "key": "accountGroupId",
+      "value": "15005",
+      "enabled": true
+    },
+    {
+      "key": "accountId",
+      "value": "23355",
+      "enabled": true
+    },
+    {
+      "key": "authentication_outbound_hmac_outbound_signature_calculation_secret_type_export_132",
+      "value": "SCRIPT",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "authentication_outbound_hmac_outbound_signature_calculation_secret_export_132",
+      "value": "${vars.secret}",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "authentication_inbound_hmac_outbound_signature_calculation_secret_type_export_130",
+      "value": "SCRIPT",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "authentication_inbound_hmac_outbound_signature_calculation_secret_export_130",
+      "value": "${vars.secret}",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "authentication_inbound_hmac_signature_calculation_secret_type_export_129",
+      "value": "SCRIPT",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "authentication_inbound_hmac_signature_calculation_secret_export_129",
+      "value": "${vars.secret}",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "authentication_inbound_hmac_signature_calculation_secret_type_export_131",
+      "value": "SCRIPT",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "authentication_inbound_hmac_signature_calculation_secret_export_131",
+      "value": "${vars.secret}",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "urlpost",
+      "value": "https:\/\/gatewaystage-approuter-caas2-sap-stage.cfapps.us10.hana.ondemand.com\/consumer\/payment-service\/gateway\/notifications\/23355",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "TCONTAB",
+      "value": "C",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "apiEnv",
+      "value": "int-ecommerce.nexi.it",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "EUR",
+      "value": "978",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "alias",
+      "value": "ALIAS_WEB_00028426",
+      "enabled": true
+    }
+    ,
+    {
+      "key": "secret",
+      "value": "",
+      "enabled": true
+    }
+
+  ],
+  "_postman_variable_scope": "environment",
+  "_postman_exported_at": "",
+  "_postman_exported_using": "Postman\/7.35.0"
+}
