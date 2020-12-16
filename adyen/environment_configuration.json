@@ -1,0 +1,104 @@
+{
+	"id": "e211fdba-ab29-4691-8d82-10de6599922c",
+	"name": "gateway",
+	"values": [
+		{
+			"key": "token",
+			"value": "Oauth2 Bearer Token",
+			"enabled": true
+		},
+		{
+			"key": "rootUrl",
+			"value": "UPSCALE ROOT",
+			"enabled": true
+		},
+		{
+			"key": "accountGroupId",
+			"value": "Upscale Payment Group ID",
+			"enabled": true
+		},
+		{
+			"key": "accountId",
+			"value": "Upscale Payment Account ID",
+			"enabled": true
+		},
+		{
+			"key": "authentication_inbound_basic_auth_username_export_163",
+			"value": "(Notification Basic Auth)Basic Auth_username",
+			"enabled": true
+		},
+		{
+			"key": "authentication_inbound_basic_auth_password_export_163",
+			"value": "(Notification Basic Auth)Basic Auth_password",
+			"enabled": true
+		},
+		{
+			"key": "authentication_inbound_hmac_outbound_signature_calculation_secret_type_export_164",
+			"value": "TEXT",
+			"enabled": true
+		},
+		{
+			"key": "authentication_inbound_hmac_outbound_signature_calculation_secret_export_164",
+			"value": "(SKIN HMAC)Payment Form Signature",
+			"enabled": true
+		},
+		{
+			"key": "authentication_inbound_hmac_signature_calculation_secret_type_export_162",
+			"value": "TEXT",
+			"enabled": true
+		},
+		{
+			"key": "authentication_inbound_hmac_signature_calculation_secret_export_162",
+			"value": "(Notification HMAC)Notification Signature",
+			"enabled": true
+		},
+		{
+			"key": "authentication_inbound_hmac_signature_calculation_secret_type_export_165",
+			"value": "TEXT",
+			"enabled": true
+		},
+		{
+			"key": "authentication_inbound_hmac_signature_calculation_secret_export_165",
+			"value": "(SKIN HMAC)Verification Signature",
+			"enabled": true
+		},
+		{
+			"key": "authentication_outbound_api_key_value_export_166",
+			"value": "(Webservice User)API Key",
+			"enabled": true
+		},
+		{
+			"key": "merchantCode",
+			"value": "Adyen Merchant Code",
+			"enabled": true
+		},
+		{
+			"key": "skinCode",
+			"value": "Adyen Skin Code",
+			"enabled": true
+		},
+		{
+			"key": "checkoutPaymentHost",
+			"value": "Adyen Checkout Payment Host",
+			"enabled": true
+		},
+		{
+			"key": "standardPaymentHost",
+			"value": "Adyen Standard Payment Host",
+			"enabled": true
+		},
+		{
+			"key": "hostedPaymentPageHost",
+			"value": "Adyen HPP Host",
+			"enabled": true
+		},
+		{
+			"key": "apiVersion",
+			"value": "Adyen API Version",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2020-12-16T06:59:53.571Z",
+	"_postman_exported_using": "Postman/7.36.0"
+}
